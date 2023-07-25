@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bluedot_mpd_pkg"
+version = "0"
+authors = [
+  { name="Mike Cooke", email="drmikecooke@gmail.com" },
+]
+description = "Simple mpd control via bluetooth"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies =["bluedot","dbus-python"]
+
+[tool.setuptools]
+# ...
+# By default, include-package-data is true in pyproject.toml, so you do
+# NOT have to specify this line.
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+#epg = "epg_package.main:main"
