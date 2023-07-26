@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/bluedotMPD_pkg/MPD.py
+src/bluedotMPD_pkg/__init__.py
+src/bluedotMPD_pkg/runner.py
+src/bluedot_mpd_pkg.egg-info/PKG-INFO
+src/bluedot_mpd_pkg.egg-info/SOURCES.txt
+src/bluedot_mpd_pkg.egg-info/dependency_links.txt
+src/bluedot_mpd_pkg.egg-info/entry_points.txt
+src/bluedot_mpd_pkg.egg-info/requires.txt
+src/bluedot_mpd_pkg.egg-info/top_level.txt

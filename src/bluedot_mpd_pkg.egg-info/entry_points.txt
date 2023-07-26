@@ -1,0 +1,2 @@
+[console_scripts]
+bdotMPD = bluedotMPD_pkg.runner:main

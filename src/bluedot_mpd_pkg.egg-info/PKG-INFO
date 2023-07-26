@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bluedot-mpd-pkg
+Version: 0
+Summary: Simple mpd control via bluetooth
+Author-email: Mike Cooke <drmikecooke@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bluedot-mpd
+Use python bluedot to start/stop/pause music player daemon running on an ancient raspberry pi with usb dongle for travel use (absent wifi MALP connection). 
