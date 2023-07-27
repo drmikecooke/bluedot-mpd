@@ -1,0 +1,11 @@
+[Unit]
+Description=Bluedot-MPD Service
+
+[Service]
+# Command to execute when the service is started
+ExecStart=/home/mike/.local/bin/bdotMPD
+Environment=PYTHONUNBUFFERED=1
+Environment="MPDHOST=localhost"
+
+[Install]
+WantedBy=default.target

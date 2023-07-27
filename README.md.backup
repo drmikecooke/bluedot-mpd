@@ -33,13 +33,13 @@ bdotMPD &
 
 The "&" puts the process in background, so you can do other stuff, and sets up a server. You should see what mpd is playing (oh, by the way, the code assumes that you have installed mpc, using "sudo apt install mpc").
 
-The bluedot app with a paired device running the app (Android (this has been tested by me), or 2nd rpi "Desktop" (not tried), see [Getting started](https://bluedot.readthedocs.io/en/latest/gettingstarted.html) and [Android](https://bluedot.readthedocs.io/en/latest/pairpiandroid.html)/[rpi](https://bluedot.readthedocs.io/en/latest/pairpipi.html) pairing sections of the documentation) shows a traffic light of red/yellow/green. Pressing these stops (careful, this also shuts off the mpd rpi), pauses, or plays music on the mpd, respectively. I hope these colours are sort of obvious/intuitive.
+The bluedot app with a paired device running the app (Android (this has been ), or 2nd rpi "Desktop" (not tried), see [Getting started](https://bluedot.readthedocs.io/en/latest/gettingstarted.html) and [Android](https://bluedot.readthedocs.io/en/latest/pairpiandroid.html)/[rpi](https://bluedot.readthedocs.io/en/latest/pairpipi.html) pairing sections of the documentation) shows a traffic light of red/yellow/green. Pressing these stops (careful, this also shuts off the mpd rpi), pauses, or plays music on the mpd, respectively. I hope these colours are sort of obvious/intuitive.
 
 There are ways to allow you to exit from the console, which I could go into but won't. Instead . . .
 
 ## Systemd
 
-Many "services" that are launched in the background and at startup on Debian-based systems are handled through "systemd". How to put my little app into systemd was a new experience for me, so I will go through the steps derived from the relevant link below.
+Many "services" that are launched on Debian-based systems are handled through "systemd". How to put my little app into systemd was a new experience for me, so I will go through the steps derived from the relevant link below.
 
 First:
 
