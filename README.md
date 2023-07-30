@@ -39,7 +39,7 @@ There are ways to allow you to exit from the console, which I could go into but 
 
 ## Systemd
 
-Many "services" that are launched in the background and at startup on Debian-based systems are handled through "systemd". How to put my little app into systemd was a new experience for me, so I will go through the steps derived from the relevant link below.
+Many "services" that are launched in the background and at startup on Debian-based systems are handled through "systemd". How to put my little app into systemd was a new experience for me, so I will go through the steps derived from the relevant links below.
 
 This will create a suitable directory for the systemd files in your home directory. First, edit the systemd/bdotMPD.service file line to point at your home folder (or wherever you have installed the code):
 
